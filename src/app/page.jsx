@@ -25,7 +25,16 @@ export default function Home() {
 
             <div className="projects">
               
-              <div className="project">
+              <a href="https://downloadlify.vercel.app/" target="_blank" className="project">
+
+                <div className="product-info">
+                  <Image className="product-logo" src={StartupLogo1} alt=""></Image>
+                  <span>Downloadlify</span>
+                </div>
+
+                <p className="product-description">Download Anything From YouTube Without Ads</p>
+              </a>
+              <a href="#!" className="project">
 
                 <div className="product-info">
                   <Image className="product-logo" src={StartupLogo1} alt=""></Image>
@@ -33,8 +42,8 @@ export default function Home() {
                 </div>
 
                 <p className="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ex.</p>
-              </div>
-              <div className="project">
+              </a>
+              <a href="#!" className="project">
 
                 <div className="product-info">
                   <Image className="product-logo" src={StartupLogo1} alt=""></Image>
@@ -42,8 +51,8 @@ export default function Home() {
                 </div>
 
                 <p className="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ex.</p>
-              </div>
-              <div className="project">
+              </a>
+              <a href="#!" className="project">
 
                 <div className="product-info">
                   <Image className="product-logo" src={StartupLogo1} alt=""></Image>
@@ -51,16 +60,7 @@ export default function Home() {
                 </div>
 
                 <p className="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ex.</p>
-              </div>
-              <div className="project">
-
-                <div className="product-info">
-                  <Image className="product-logo" src={StartupLogo1} alt=""></Image>
-                  <span>Startup Name</span>
-                </div>
-
-                <p className="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ex.</p>
-              </div>
+              </a>
 
               <div className="project">
 

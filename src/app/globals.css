@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 main {
   background: #E6E5E5;
   /* height: 100vh; */
@@ -30,11 +34,7 @@ main {
   margin-bottom: 30px;
 }
 
-.author {
-  /* position: sticky;
-  top: 0;
-  left: 0; */
-}
+.author {}
 
 .author .text b {
   font-size: 36px;
@@ -65,13 +65,21 @@ main {
   border-radius: 20px;
   padding: 20px;
   max-width: 350px;
+  color: #000;
+  transition: 300ms;
+}
+
+.projects .project:hover {
+  transform: scale(1.04);
+  background: #000000a5;
+  color: #fff;
 }
 
 .projects .project .product-info {
   display: flex;
   align-items: center;
-  margin-bottom: 5px;
-  gap: 5px;
+  margin-bottom: 10px;
+  gap: 7px;
 }
 
 .projects .project .product-info .product-logo {
@@ -81,4 +89,5 @@ main {
 
 .projects .project .product-description {
   font-size: 12px;
+  font-style: italic;
 }

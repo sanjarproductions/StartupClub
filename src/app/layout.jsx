@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Startup Club",
+  title: "Startup Club | Home ",
   description: "Startup Club - is a startup incubator for startups",
 };
 
