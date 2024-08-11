@@ -51,7 +51,30 @@ main {
 .text .description {
   font-style: italic;
   max-width: 372px;
-  margin-bottom: 12px;
+  margin-bottom: 29px;
+}
+
+.social-yt {
+  margin-top: 10px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0px;
+  gap: 5px;
+  border-radius: 20px;
+  background: #fff;
+  transition: 400ms;
+}
+
+.social-yt:hover {
+  transform: scale(1.04);
+  color: #fff;
+  background: #000;
+}
+
+.social-yt svg {
+  font-size: 25px;
 }
 
 .projects {
@@ -67,6 +90,13 @@ main {
   max-width: 350px;
   color: #000;
   transition: 300ms;
+}
+
+.product-info span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
 }
 
 .projects .project:hover {
@@ -90,4 +120,8 @@ main {
 .projects .project .product-description {
   font-size: 12px;
   font-style: italic;
+}
+
+.project-empty {
+  height: 100px;
 }

@@ -4,6 +4,8 @@ import StartupLogo1 from "./img/Dd.png"
 import StartupLogo2 from "./img/Wave.png"
 import { FaLocationDot } from "react-icons/fa6";
 import { FaMoneyBillWave } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { MdArrowOutward } from "react-icons/md";
 
 export default function Home() {
   return (
@@ -20,16 +22,16 @@ export default function Home() {
                 </div>
                 <p className="description">Startup Club - is a startup incubator building startups untill we succed (and after)</p>
               </div>
-              <a className="social-yt" href="https://www.youtube.com/@startupclub1">YouTube</a>
+              <a className="social-yt" href="https://www.youtube.com/@startupclub1"><FaYoutube />YouTube </a>
             </div>
 
             <div className="projects">
-              
+
               <a href="https://downloadlify.vercel.app/" target="_blank" className="project">
 
                 <div className="product-info">
                   <Image className="product-logo" src={StartupLogo1} alt=""></Image>
-                  <span>Downloadlify</span>
+                  <span>Downloadlify <MdArrowOutward /></span>
                 </div>
 
                 <p className="product-description">Download Anything From YouTube Without Ads</p>
@@ -37,107 +39,53 @@ export default function Home() {
               <a href="#!" className="project">
 
                 <div className="product-info">
-                  <Image className="product-logo" src={StartupLogo1} alt=""></Image>
-                  <span>Startup Name</span>
+                  <Image className="product-logo" src={StartupLogo2} alt=""></Image>
+                  <span>Wave <MdArrowOutward /></span>
                 </div>
 
-                <p className="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ex.</p>
-              </a>
-              <a href="#!" className="project">
-
-                <div className="product-info">
-                  <Image className="product-logo" src={StartupLogo1} alt=""></Image>
-                  <span>Startup Name</span>
-                </div>
-
-                <p className="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ex.</p>
-              </a>
-              <a href="#!" className="project">
-
-                <div className="product-info">
-                  <Image className="product-logo" src={StartupLogo1} alt=""></Image>
-                  <span>Startup Name</span>
-                </div>
-
-                <p className="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ex.</p>
+                <p className="product-description">Content Distributor which saves you hours of your precious time</p>
               </a>
 
-              <div className="project">
+              {/* EMPTY */}
 
-                <div className="product-info">
-                  <Image className="product-logo" src={StartupLogo1} alt=""></Image>
-                  <span>Startup Name</span>
-                </div>
+              <a href="#!" className="project project-empty">
 
-                <p className="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ex.</p>
-              </div>
-              <div className="project">
+              </a>
+              <a href="#!" className="project project-empty">
 
-                <div className="product-info">
-                  <Image className="product-logo" src={StartupLogo1} alt=""></Image>
-                  <span>Startup Name</span>
-                </div>
+              </a>
+              <a href="#!" className="project project-empty">
 
-                <p className="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ex.</p>
-              </div>
-              <div className="project">
+              </a>
+              <a href="#!" className="project project-empty">
 
-                <div className="product-info">
-                  <Image className="product-logo" src={StartupLogo1} alt=""></Image>
-                  <span>Startup Name</span>
-                </div>
+              </a>
+              <a href="#!" className="project project-empty">
 
-                <p className="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ex.</p>
-              </div>
-              <div className="project">
+              </a>
+              <a href="#!" className="project project-empty">
 
-                <div className="product-info">
-                  <Image className="product-logo" src={StartupLogo1} alt=""></Image>
-                  <span>Startup Name</span>
-                </div>
+              </a>
+              <a href="#!" className="project project-empty">
 
-                <p className="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ex.</p>
-              </div>
+              </a>
+              <a href="#!" className="project project-empty">
 
-              <div className="project">
+              </a>
+              <a href="#!" className="project project-empty">
 
-                <div className="product-info">
-                  <Image className="product-logo" src={StartupLogo1} alt=""></Image>
-                  <span>Startup Name</span>
-                </div>
+              </a>
+              <a href="#!" className="project project-empty">
 
-                <p className="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ex.</p>
-              </div>
-              <div className="project">
+              </a>
+              <a href="#!" className="project project-empty">
 
-                <div className="product-info">
-                  <Image className="product-logo" src={StartupLogo1} alt=""></Image>
-                  <span>Startup Name</span>
-                </div>
+              </a>
+              <a href="#!" className="project project-empty">
 
-                <p className="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ex.</p>
-              </div>
-              <div className="project">
-
-                <div className="product-info">
-                  <Image className="product-logo" src={StartupLogo1} alt=""></Image>
-                  <span>Startup Name</span>
-                </div>
-
-                <p className="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ex.</p>
-              </div>
-              <div className="project">
-
-                <div className="product-info">
-                  <Image className="product-logo" src={StartupLogo1} alt=""></Image>
-                  <span>Startup Name</span>
-                </div>
-
-                <p className="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ex.</p>
-              </div>
+              </a>
 
             </div>
-
           </div>
         </div>
       </main>
